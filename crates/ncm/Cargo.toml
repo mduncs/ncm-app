@@ -1,0 +1,19 @@
+[package]
+name = "ncm"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+crossterm.workspace = true
+ncm-model.workspace = true
+ncm-tmux.workspace = true
+ncm-term.workspace = true
+ncm-render.workspace = true
+ncm-talk.workspace = true
+
+libc.workspace = true
+memchr.workspace = true
+unicode-width.workspace = true

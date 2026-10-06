@@ -1,0 +1,19 @@
+[package]
+name = "ncm-render"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+ncm-model.workspace = true
+fontdue.workspace = true
+ttf-parser = { version = "0.25", default-features = false, features = ["std"] }
+flate2.workspace = true
+base64.workspace = true
+
+
+[dev-dependencies]
+ncm-tmux.workspace = true
+ncm-term.workspace = true

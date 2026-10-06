@@ -1,0 +1,4 @@
+[build]
+# The host is shared with desktop apps; keep compiler concurrency low.
+jobs = 1
+
